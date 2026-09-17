@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The O'Rica — Fine Dining &amp; Cafe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particles-bg" class="particles-bg" aria-hidden="true"></canvas>
+  <div class="glow"></div>
+
+  <main class="page">
+    <img class="logo" src="assets/logo.png" alt="The O'Rica — Fine Dining &amp; Cafe" />
+
+    <p class="subtitle">Choose a menu to view</p>
+
+    <div class="menu-grid">
+      <a class="menu-card" href="menus/restaurant-menu.pdf" target="_blank" rel="noopener">
+        <span class="menu-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+            <path d="M7 2v20" />
+            <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+          </svg>
+        </span>
+        <span class="menu-label">Restaurant Menu</span>
+        <span class="menu-cta">View PDF →</span>
+      </a>
+
+      <a class="menu-card" href="menus/cafe-menu.pdf" target="_blank" rel="noopener">
+        <span class="menu-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
+            <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z" />
+            <line x1="6" y1="2" x2="6" y2="4" />
+            <line x1="10" y1="2" x2="10" y2="4" />
+            <line x1="14" y1="2" x2="14" y2="4" />
+          </svg>
+        </span>
+        <span class="menu-label">Cafe Menu</span>
+        <span class="menu-cta">View PDF →</span>
+      </a>
+
+      <a class="menu-card" href="menus/beverages-menu.pdf" target="_blank" rel="noopener">
+        <span class="menu-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 22h8" />
+            <path d="M12 11v11" />
+            <path d="m19 3-7 8-7-8Z" />
+          </svg>
+        </span>
+        <span class="menu-label">Beverages Menu</span>
+        <span class="menu-cta">View PDF →</span>
+      </a>
+    </div>
+  </main>
+
+  <script src="assets/particles.js" defer></script>
+</body>
+</html>
